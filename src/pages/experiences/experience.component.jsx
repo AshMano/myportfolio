@@ -38,7 +38,7 @@ const Experience = () => {
                         <strong> Description </strong>
                         <ul className="text-left">
                           <li><strong>Developed</strong> automation system to create hundreds of user accessess that
-                            increased efficiency by 80% and decreased working hours from 4 hours to 30 mins per task.
+                            increased efficiency and decreased working hours from 4 hours to 30 mins per task.
                           </li>
                           <li><strong>Provided</strong> application maintenance by fixing bugs and  improving the robustness of others script.
                           </li>
