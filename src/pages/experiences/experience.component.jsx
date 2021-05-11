@@ -3,7 +3,6 @@ import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 import L_BNP from "../../assets/img/experience/bnp.png";
 import L_SPORTAGRAPH from "../../assets/img/experience/sporta.png";
-import Tilt from "react-tilt";
 import Jumbotron from "react-bootstrap/Jumbotron";
 
 import "./experience.style.css";
@@ -18,7 +17,6 @@ const Experience = () => {
           {/*JUMBOTRON highlights the box */}
           <Jumbotron className="jumbo-style">
             <Container>
-              <Tilt options={{ max: 25 }}>
                 <Card>
                   <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
                     <Card.Img variant="top" className="img-resize" src={L_BNP} alt="Bnp logo" />
@@ -50,12 +48,10 @@ const Experience = () => {
                     </div>
                   </Card.Body>
                 </Card>
-              </Tilt>
             </Container>
           </Jumbotron>
           <Jumbotron className="jumbo-style">
             <Container>
-              <Tilt options={{ max: 25 }}>
                 <Card>
                   <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
                     <Card.Img variant="top" className="img-resize" src={L_SPORTAGRAPH} alt="Sportagraph logo" />
@@ -88,7 +84,6 @@ const Experience = () => {
                     </div>
                   </Card.Body>
                 </Card>
-              </Tilt>
             </Container>
           </Jumbotron>
         </div>
