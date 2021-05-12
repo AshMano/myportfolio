@@ -14,7 +14,7 @@ const Experience = () => {
   return (
     <div id="experience">
           <h1 className="pt-3 text-center font-details-b pb-3">EXPERIENCES</h1>
-          {/*JUMBOTRON highlights the box */}
+          {/*JUMBOTRON highlights the box content */}
           <Jumbotron className="jumbo-style">
             <Container>
                 <Card>
