@@ -1,9 +1,10 @@
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_BOOTSTRAP from "../../assets/img/skills/bootstrap-4.svg";
+import L_FLASK from "../../assets/img/skills/flask.svg";
 import L_REACT from "../../assets/img/skills/react.svg";
-import L_REDUX from "../../assets/img/skills/redux.svg";
-import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
+import L_ANGULAR from "../../assets/img/skills/angular.png";
+import L_VUE from "../../assets/img/skills/vue.png";
 import L_MONGODB from "../../assets/img/skills/mongodb.svg";
 import L_MSSQL from "../../assets/img/skills/mssql.svg";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
@@ -43,22 +44,28 @@ export const skills = {
       skillName: "Bootstrap",
     },
     {
+      link: "https://flask.palletsprojects.com/",
+      imgAltText: "Flask",
+      imgSrc: L_FLASK,
+      skillName: "Flask",
+    },
+    {
       link: "https://reactjs.org/",
       imgAltText: "React JS",
       imgSrc: L_REACT,
       skillName: "React JS",
     },
     {
-      link: "https://redux.js.org/",
-      imgAltText: "Redux",
-      imgSrc: L_REDUX,
-      skillName: "Redux",
+      link: "https://angularjs.org/",
+      imgAltText: "Angular JS",
+      imgSrc: L_ANGULAR,
+      skillName: "Angular JS",
     },
     {
-      link: "https://react-bootstrap.github.io/",
-      imgAltText: "React Bootstrap",
-      imgSrc: L_REACT_BOOTSTRAP,
-      skillName: "React Bootstrap",
+      link: "https://vuejs.org/",
+      imgAltText: "Vue JS",
+      imgSrc: L_VUE,
+      skillName: "Vue JS",
     },
   ],
 
